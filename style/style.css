@@ -13,8 +13,9 @@ body {
 }
 
 .nav__backgr{
-    background-color:rgba(25, 25, 25, 0.53);
+    background-color:rgba(25, 25, 25, 0.109);
 }
+
 .nav-main .nav-links {
     padding: .25rem 0;
     font-weight: 700;
@@ -54,7 +55,7 @@ body {
     padding: 3rem;
     border-width: 2px;
     border-style: solid;
-    margin-top: 10vh;
+    margin-top: 12vh;
 }
 
 #margin__gallery{
@@ -63,7 +64,7 @@ body {
 
 #gallery__title{
     color: rgb(182, 182, 182);
-    margin-top: 10vh;
+    margin-top: 11vh;
 }
 
 
@@ -71,5 +72,11 @@ body {
 @media (max-width:576px){
     .main{
         width: 90%;
+    }
+
+    .nav__backgr{
+        background-color:rgba(25, 25, 25, 0.495);
+        height: 10vh;
+        
     }
 }
