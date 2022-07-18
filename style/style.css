@@ -27,7 +27,7 @@ body {
 
 .nav-main .nav-links:hover,
 .nav-main .nav-links:focus {
-    border-bottom-color: rgba(255, 255, 255, .25);
+    border-bottom-color: rgb(255, 255, 255);
 }
 
 .nav-main .nav-links + .nav-links {
@@ -55,11 +55,11 @@ body {
     padding: 3rem;
     border-width: 2px;
     border-style: solid;
-    margin-top: 12vh;
+    margin: 12vh auto 8vh auto;
 }
 
 #margin__gallery{
-    margin: 4rem 0 5rem 0;
+    margin: 4rem 0 6rem 0;
 }
 
 #gallery__title{
@@ -72,11 +72,11 @@ body {
 @media (max-width:576px){
     .main{
         width: 90%;
+        margin-bottom: 8vh;
     }
 
     .nav__backgr{
-        background-color:rgba(25, 25, 25, 0.495);
+        background-color:rgba(0, 0, 0, 0.852);
         height: 10vh;
-        
     }
 }
